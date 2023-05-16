@@ -38,41 +38,6 @@ console.log(objectNew);
 
 //////////////
 
-// // EX 3:
-// function Book(title, author) {
-//   this.title = title;
-//   this.author = author;
-//   this.detailsOfBook = function () {
-//     return this.title + " wrriten by " + this.author;
-//   };
-// }
-// let books = new Book("Hobbitul", "J.R.R. Tolkien");
-// let result = books.detailsOfBook();
-// // console.log(result);
-
-// function Book2(title, author) {
-//   this.title = title;
-//   this.author = author;
-//   this.detailsOfBook = function () {
-//     return this.title + " wrriten by " + this.author;
-//   };
-// }
-// let books2 = new Book2("Title2", "Author2");
-// let result2 = books2.detailsOfBook();
-// // console.log(result2);
-
-// function book(action) {
-//   let read = 0;
-//   while (action > read) {
-//     return `You read ${result}`;
-//   }
-//   if (action === read) {
-//     return `You didn't read ${result2}  `;
-//   }
-// }
-// console.log(book(1));
-// console.log(book(0));
-
 // EX 3:
 let book1 = {
   title: "title1",

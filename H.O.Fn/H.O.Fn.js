@@ -1,20 +1,14 @@
 // Ex-1:
 
-const findSquare1 = [];
-const mapSquare1 = findSquare.map((num) => num * num);
-const num = findSquare1;
-console.log(num[-12]);
-console.log(mapSquare);
 
 /////Altceva
 const findSquare = [1, 2, 3, 4, 9, -12];
 const mapSquare = findSquare.map((n) => n * n);
 console.log(mapSquare);
 
-//Ex-2:
+//Ex-2: Function
 
 function randomNumber(start, end) {
-  start = Math.ceil(start);
   return Math.floor(Math.random() * (start - end) + end);
 }
 console.log(randomNumber(1, 7));
@@ -27,15 +21,15 @@ let letter = "m";
 const count = [...low].filter((x) => x === letter).length;
 console.log(count);
 
-//Ex-4:
+//Ex-4: Function
 
-function sumOfArray(array) {
+function sumOfArray(...array) {
   const sum = array.reduce((total, num) => total + num);
   console.log(sum);
   return sum;
 }
 
-sumOfArray([2, -4, 1, 5, -4]);
+sumOfArray(2, -4, 1, 5, -4);
 
 /////////Altceva
 let array = [1, 2, 3, 4];

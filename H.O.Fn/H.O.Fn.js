@@ -1,5 +1,9 @@
 // Ex-1:
-
+const findSquare = (a) => {
+  return (a*a)
+}
+const square = findSquare;
+console.log(square(4));
 
 /////Altceva
 const findSquare = [1, 2, 3, 4, 9, -12];

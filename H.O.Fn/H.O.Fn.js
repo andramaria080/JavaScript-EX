@@ -17,7 +17,7 @@ function randomNumber(start, end) {
   start = Math.ceil(start);
   return Math.floor(Math.random() * (start - end) + end);
 }
-console.log(randomNumber(3, 5));
+console.log(randomNumber(1, 7));
 
 //Ex-3:
 
@@ -51,4 +51,4 @@ array2.forEach((x) => {
   sum2 += x;
 });
 console.log(sum2);
-////
+

@@ -1,15 +1,15 @@
 // Ex-1:
 
-const findSquer1 = [];
-const mapSquer1 = findSquer.map((num) => num * num);
-const num = findSquer1;
+const findSquare1 = [];
+const mapSquare1 = findSquare.map((num) => num * num);
+const num = findSquare1;
 console.log(num[-12]);
-console.log(mapSquer);
+console.log(mapSquare);
 
 /////Altceva
-const findSquer = [1, 2, 3, 4, 9, -12];
-const mapSquer = findSquer.map((n) => n * n);
-console.log(mapSquer);
+const findSquare = [1, 2, 3, 4, 9, -12];
+const mapSquare = findSquare.map((n) => n * n);
+console.log(mapSquare);
 
 //Ex-2:
 

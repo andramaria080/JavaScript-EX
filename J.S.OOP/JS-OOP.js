@@ -38,7 +38,7 @@ class racingCar extends car {
     }
   }
 }
-const racingCarData = new racingCar(`Toyota`, `turbo`, `Red`, 10000);
+const racingCarData = new racingCar(`Toyota`, `Turbo`, `Red`, 10000);
 console.log(racingCarData);
 console.log(racingCarData.prop);
 let resultChampionship = racingCarData.participateInTheChampionship;

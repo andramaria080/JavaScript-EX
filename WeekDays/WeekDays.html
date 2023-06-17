@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Week days</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>Week days</h1>
+    <script>
+      function weekDays(days) {
+        switch (days) {
+          case 1:
+            return "Monday";
+            break;
+          case 2:
+            return "Tuesday";
+            break;
+          case 3:
+            return "Wednesday";
+            break;
+          case 4:
+            return "Thusday";
+            break;
+          case 5:
+            return "Friday";
+            break;
+          case 6:
+            return "Saturday";
+            break;
+          case 7:
+            return "Sunday";
+            break;
+          default:
+            console.log("Sunt doar 7 zile intr-o saptamana");
+        }
+      }
+      console.log(weekDays(7));
+    </script>
+  </body>
+</html>
